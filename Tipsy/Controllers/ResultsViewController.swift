@@ -68,23 +68,11 @@ final class ResultsViewController: UIViewController {
         return element
     }()
 
-
-
-
-
-
-    
-    
-    
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
         setupConstrains()
-
-        //totalLabel.text = result
-        //settingsLabel.text = "Split between \(split) people, with \(tip)% tip."
-
     }
     
     // MARK: - Private methods
@@ -102,7 +90,6 @@ final class ResultsViewController: UIViewController {
         
         self.dismiss(animated: true, completion: nil)
     }
-    
 }
 
 // MARK: - Setup Constraints

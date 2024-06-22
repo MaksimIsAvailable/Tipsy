@@ -146,6 +146,7 @@ final class CalculatorViewController: UIViewController {
         element.translatesAutoresizingMaskIntoConstraints = false
         return element
     }()
+    
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -153,6 +154,7 @@ final class CalculatorViewController: UIViewController {
         setupUI()
         setupConstrains()
     }
+    
     // MARK: - Private methods
     private func setupUI() {
         view.addSubview(firstView)
@@ -172,6 +174,7 @@ final class CalculatorViewController: UIViewController {
         pctButtonsStackView.addArrangedSubview(tenPctButton)
         pctButtonsStackView.addArrangedSubview(twentyPctButton)
     }
+    
     // MARK: - Selector methods
     @objc private func tipChanged(_ sender: UIButton) {
         
@@ -235,7 +238,6 @@ final class CalculatorViewController: UIViewController {
         numberOfPeople = Int(sender.value)
     }
 }
-
 
 // MARK: - Setup Constraints
 private extension CalculatorViewController {
