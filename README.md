@@ -8,4 +8,6 @@ This app does a great job splitting bills, calculating tips. No one will be able
 - UIKit
 - MVC
 - Programmatic UI
+
+  
 ![Simulator Screen Recording - iPhone 14 Pro Max - 2024-06-22 at 19 20 40](https://github.com/MaksimIsAvailable/Tipsy/assets/162634880/cd84180f-3de7-42f0-8869-55dc4d3b5370)
